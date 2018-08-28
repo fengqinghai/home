@@ -1,0 +1,132 @@
+/*公共样式*/
+*{margin:0;padding:0;text-decoration:none;list-style: none;}
+html{font-size: 100px;}
+body{background-color:#F4F4F4;font-size:0.16rem;}
+/*-------------------头部---------------------------*/
+.header{
+	width:5.4rem;height:0.66rem;position:relative;
+	margin:0 auto;
+}
+.header .left{
+	width:4.5rem;background:white;height:0.62rem;position:absolute;
+	top:0.02rem;left:0rem;line-height: 0.62rem;font-size:0.2rem;
+	font-weight:600;text-indent:0.2rem;color:#666666;
+}
+.header .right{
+	width:1.44rem;height:0.46rem;border:0.02rem solid #EDECED;
+	position: absolute;top:50%;transform:translateY(-50%);right:0.2rem;
+	border-radius:0.23rem;overflow:hidden;
+}
+.header .right a{
+	float:left;width:50%;height:100%;
+}
+.header .right .more{
+	background:url(images/more.png) no-repeat center;
+	background-size: 50%;
+}
+.header .right .off{
+	background:url(images/off.png) no-repeat center;
+	background-size: 50%;
+}
+.header .right div{
+	position: absolute;width:0.02rem;height:0.28rem;
+	background:#EDECED;top:50%;left:50%;transform:translate(-50%,-50%);
+}
+/*------------------内容-------------------------*/
+.section{
+	width:5.4rem;position:absolute;top:0.66rem;
+	bottom:0.8rem;left:50%;transform:translateX(-50%);
+	overflow-y:scroll;
+}
+.section .sectionWrap{overflow: hidden;}
+/*---------------banner----------------------*/
+.section .banner{
+	width:5rem;height:1.76rem;margin:0.15rem auto;
+}
+.section .banner li{
+	width:100%;height:100%;
+}
+.section .banner li a{
+	display: block;width: 100%;height:100%;
+	background:url(images/banner.png);
+	background-size:cover;
+}
+/*-----------------回收---------------------*/
+.section .huisou{
+	width:5rem;height:0.56rem;margin:0 auto;
+
+}
+.section .huisou a{
+	display: block;width:100%;height:100%;
+	background:url(images/huisou.png);
+	background-size:cover;
+}
+/*-----------------功能------------------------*/
+.section .gongneng{
+	width:5rem;height:1.72rem;margin:0.15rem auto;
+	background:white;border-radius:0.2rem;
+}
+.section .gongneng li{
+	width:33.333%;height:100%;float: left;text-align: center;
+}
+.section .gongneng li img{
+	display: block;margin:0.6rem auto 0.4rem;
+	width:0.43rem;height:0.42rem;
+}
+.section .gongneng li span{
+	color:#666666;
+}
+/*------------------登录---------------------*/
+.section .login{
+	width:5rem;height:1.4rem;margin:0 auto;background:white;
+	text-align: center;line-height: 1.4rem;border-radius:0.2rem;
+}
+.section .login button{
+	width:2.7rem;height:0.6rem;border-radius:0.3rem;border:0;
+	outline: none;background: #79BD51;font-size:0.2rem;color:white;
+}
+/*-----------资讯-----------------*/
+.section .news{
+	width:5rem;border-radius:0.2rem;background:white;margin:0.15rem auto;
+	padding:0.05rem 0;
+}
+.section .news p{
+	width:4.5rem;margin:0 auto;height:0.48rem;
+	line-height: 0.48rem;font-size:0.2rem;color:#79BD50;
+
+}	
+.section .news img{
+	display: block;width:4.5rem;margin:0.05rem auto;
+}
+/*--------------------底部-------------*/
+.footer{
+	width:5.4rem;height:0.8rem;position:absolute;
+	bottom:0;left:50%;transform:translateX(-50%);
+	background:white;
+}
+.footer ul{
+	width:100%;height:100%;
+}
+.footer ul li{
+	float:left;width:33.33339%;height: 100%;text-align: center;
+	color:#B2B2B2;
+}
+.footer ul li img{
+	display: block;margin:0.1rem auto;width:0.36rem;
+}
+.footer ul li:nth-child(1) span{
+	color:#79BD50;
+}
+.footer ul li:nth-child(2){
+	position:relative;
+}
+.footer ul li:nth-child(2) img{
+	position: absolute;left:50%;top:0;transform:translate(-50%,-60%);
+	width:0.76rem;box-shadow:0 0 0 0.1rem #FFFFFF;border-radius:50%;
+}
+.footer ul li:nth-child(2) span{
+	position: absolute;bottom:0.04rem;left:50%;transform:translateX(-50%);
+}
+.footer ul li:nth-child(3){
+	
+}
